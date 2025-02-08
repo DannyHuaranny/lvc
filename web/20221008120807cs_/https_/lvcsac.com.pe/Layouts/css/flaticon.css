@@ -1,0 +1,58 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 27/07/2019 08:27
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("https://web.archive.org/web/20221008120807im_/https://lvcsac.com.pe/Layouts/fonts/Flaticon.eot");
+  src: url("https://web.archive.org/web/20221008120807im_/https://lvcsac.com.pe/Layouts/fonts/Flaticon.eot#iefix") format("embedded-opentype"),
+       url("https://web.archive.org/web/20221008120807im_/https://lvcsac.com.pe/Layouts/fonts/Flaticon.woff2") format("woff2"),
+       url("https://web.archive.org/web/20221008120807im_/https://lvcsac.com.pe/Layouts/fonts/Flaticon.woff") format("woff"),
+       url("https://web.archive.org/web/20221008120807im_/https://lvcsac.com.pe/Layouts/fonts/Flaticon.ttf") format("truetype"),
+       url("https://web.archive.org/web/20221008120807im_/https://lvcsac.com.pe/Layouts/fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("https://web.archive.org/web/20221008120807im_/https://lvcsac.com.pe/Layouts/fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+font-style: normal;
+}
+
+.flaticon-left-arrow:before { content: "\f100"; }
+.flaticon-right-arrow:before { content: "\f101"; }
+.flaticon-play-button:before { content: "\f102"; }
+.flaticon-quote:before { content: "\f103"; }
+.flaticon-clock:before { content: "\f104"; }
+.flaticon-world:before { content: "\f105"; }
+.flaticon-mail:before { content: "\f106"; }
+/*
+     FILE ARCHIVED ON 12:08:07 Oct 08, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:31:09 Feb 05, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.735
+  exclusion.robots: 0.023
+  exclusion.robots.policy: 0.01
+  esindex: 0.015
+  cdx.remote: 27.285
+  LoadShardBlock: 154.272 (3)
+  PetaboxLoader3.datanode: 143.185 (5)
+  PetaboxLoader3.resolve: 153.049 (2)
+  load_resource: 176.868
+  loaddict: 55.558
+*/
