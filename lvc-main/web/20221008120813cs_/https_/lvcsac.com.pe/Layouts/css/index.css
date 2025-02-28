@@ -1,0 +1,495 @@
+@font-face{
+	font-family:Aristotelica;
+	src:url(https://web.archive.org/web/20221008120813im_/https://lvcsac.com.pe/Layouts/fonts/Aristotelica.ttf);
+}
+
+@font-face{
+	font-family:Grotesk;
+	src:url(https://web.archive.org/web/20221008120813im_/https://lvcsac.com.pe/Layouts/fonts/Grotesk.ttf);
+}
+
+.info div{
+	display: flex;
+}
+
+
+.info div i{
+	font-size: 20px;
+}
+
+.info div p{
+	margin-left: 10px;
+	font-size: 18px;
+	font-family: Grotesk;
+}
+.about-thumb img:hover ~ .video-icon{
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+ 
+    
+    border-radius: 50%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px !important;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    background-color: #ffffff73 !important;
+
+    -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-animation: r5 1s 0s ease-out infinite;
+  -moz-animation: r5 1s 0s ease-out infinite;
+  animation: r5 1s 0s ease-out infinite;
+}
+
+
+@-webkit-keyframes r5 {
+  0% {
+    box-shadow: 0 0 8px 6px rgba(93,204,231, .5), 0 0 0px 0px transparent, 0 0 0px 0px rgba(93,204,231, .7);
+  }
+  10% {
+    transform:scale(1,1);
+    box-shadow: 0 0 8px 6px rgba(93,204,231, .5), 0 0 12px 10px transparent, 0 0 12px 14px rgba(93,204,231, .7);
+  }
+  100% {
+    box-shadow: 0 0 8px 6px rgba(26, 140, 255, 0), 0 0 0px 40px transparent, 0 0 0px 40px rgba(26, 140, 255, 0);
+  }
+}
+@-moz-keyframes r5 {
+  0% {
+    box-shadow: 0 0 8px 6px rgb(93,204,231), 0 0 0px 0px transparent, 0 0 0px 0px rgb(93,204,231);
+  }
+  10% {
+    box-shadow: 0 0 8px 6px rgb(93,204,231), 0 0 12px 10px transparent, 0 0 12px 14px rgb(93,204,231);
+  }
+  100% {
+    box-shadow: 0 0 8px 6px rgba(26, 140, 255, 0), 0 0 0px 40px transparent, 0 0 0px 40px rgba(26, 140, 255, 0);
+  }
+}
+@keyframes r5 {
+  0% {
+    box-shadow: 0 0 8px 6px rgb(93,204,231), 0 0 0px 0px transparent, 0 0 0px 0px rgb(93,204,231);
+  }
+  10% {
+    box-shadow: 0 0 8px 6px rgb(93,204,231), 0 0 12px 10px transparent, 0 0 12px 14px rgb(93,204,231);
+  }
+  100% {
+    box-shadow: 0 0 8px 6px rgba(26, 140, 255, 0), 0 0 0px 40px transparent, 0 0 0px 40px rgba(26, 140, 255, 0);
+  }
+}
+.video-icon:hover{
+   width: 80px;
+    height: 80px;
+    padding: 20px;
+ 
+    border: 4px solid skyblue;
+    border-radius: 50%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px !important;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    background-color: #f5f5f585 !important;	
+
+
+}
+.activeb{
+border-bottom: 2px solid red;
+  
+}
+
+#nav{
+  position:fixed;
+  top:0;
+  right:50%;
+}
+
+section{
+  min-height: 500px;
+}
+
+.service-details .details-nav ul li a.active.show{
+font-family: Aristotelica;
+    font-size: xx-large;
+}
+/*
+body{
+	background-image: url(/web/20221008120813im_/https://lvcsac.com.pe/Layouts/imagenes/9.png) !important;
+}*/
+
+#nowrap .row{
+	flex-wrap: nowrap !important;
+}
+
+
+#partner {
+ 
+  background-size: cover;
+}
+
+#partner {
+  color: #fff;
+  text-align: center;
+}
+
+#partner h2, 
+#partner h3 {
+  color: #fff;
+}
+
+#text .info{
+	margin-left: 20px !important;
+}
+
+.partners ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.partners ul li{
+  display: inline-block;
+  float: left;
+  width: 20%;
+}
+
+.partners ul li img{
+  max-width: 200px;
+  max-height: 50%;
+}
+.lead{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.lema{
+
+}
+
+.lema h1{
+	margin:auto !important;
+	font-size: 46px;
+}
+
+.lema span{
+	background-color: #da2a2a;color:white
+}
+
+
+.quienes-somos{
+	margin-top: -100px;
+	margin-bottom: -100px;
+}
+
+.quienes-somos span{
+	font-size: 100px !important;
+	margin-bottom: -10px;
+}
+
+.section-padding h3{
+	font-family: 'Aristotelica Display Trial', sans-serif !important;
+    font-weight: bold;
+}
+
+.quienes-somos p{
+	text-indent: 50px;
+	text-align: justify;
+	margin-left: 20px;
+}
+
+.contador{
+	background-color: rgb(227, 228, 238);
+}
+
+
+.especialistas{
+	margin-top: -130px;
+}
+
+.especialistas .row{
+	margin-top: 20px;
+}
+
+.especialistas .section-title span{
+	font-size: 100px !important;
+	margin-bottom: -10px;
+	font-family: 'Aristotelica Display Trial', sans-serif !important;
+	font-weight: bold;
+}
+
+.a-services .col-md-4 div{
+margin-top: 25px; 
+margin-left: -40px;
+}
+
+.a-services .col-md-4 div span{
+color: red;
+font-family: 'Aristotelica Display Trial', sans-serif !important;
+font-size: 24px; 
+margin-left: 30px;
+font-weight: bold;
+}
+
+.a-services .col-md-4 div p{
+text-align: center;
+margin-right: 60px;
+}
+
+.a-services .img-number{
+	width: 140px;
+	height: 10rem;
+	margin:0;
+
+}
+
+.a-services .number{
+	position: absolute;
+	width: 80%;
+
+}
+
+
+.b-services .col-md-4 div{
+margin-top: 25px; 
+margin-right: -40px;
+}
+
+.b-services .col-md-4 div span{
+color: #2b599a;
+font-family: 'Aristotelica Display Trial', sans-serif !important;
+font-size: 24px; 
+margin:0 auto;
+font-weight: bold;
+}
+
+.b-services .col-md-4 div p{
+text-align: center;
+margin-right: 10px;
+}
+
+.b-services .img-number{
+	width: 140px;
+	height: 10rem;
+	margin:0;
+
+}
+
+.b-services .number{
+	position: absolute;
+	width: 80%;
+
+}
+
+
+.slider-content p {
+    font-size: 20px !important;
+}
+
+.section-header h3 {
+    font-size: 26px !important;
+}
+
+.section-header p {
+    font-size: 20px !important;
+}
+
+.section-title span {
+    font-size: 26px !important;
+    text-transform: capitalize;
+}
+
+
+/**project tumb*/
+
+.project-thumb {}
+
+.project-thumb img {}
+
+.project-info span {
+    color: white !important;
+}
+
+.single-counter .icon img{
+ 	filter: saturate(100) !important;
+}
+
+
+.offset-lg-1{
+	background-color: #2f2b388a;
+}
+
+
+.single-details img{
+/*width: 400px !important;*/
+}
+
+
+.carousel-caption{
+	width:96%;
+    display:block;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    background-color: #14131391;
+    padding:1%;
+    line-height:normal;
+    color:#FFF;
+    font-weight:normal;
+margin-left: -100px;
+}
+
+.carousel-caption h5{
+	color: white !important;
+}
+
+#my-carousel{
+    margin-top:100px;
+}
+
+/*Imagenes Carrusel*/
+#quienes-somos .carousel-item img{
+/*  object-fit: scale-down;
+  height: 50vh;
+  width: 100%;*/
+  
+}
+
+.social .carousel-item img{
+ /* height: 25rem;
+  width: 100%;*/
+}
+
+.service-details .carousel .card-body a{
+	float: right;
+}
+
+.service-details .carousel .card-body h5{
+	font-weight: 700;
+}
+
+.service-details .carousel .card .lazy{
+
+}
+
+/*
+.slideshow-container{
+			max-width: 1000px;
+			position: relative;
+			margin:auto;
+		}
+
+
+		.slideshow-container img{
+			margin: auto;
+			margin-left: 10%;
+		}
+
+		.prev, .next{
+			cursor: pointer;
+			position: absolute;
+			top: 0;
+			top: 50%;
+			width: auto;
+			margin-top: -22px;
+			padding: 16px;
+			color: white;
+			font-weight: bold;
+			font-size: 18px;
+			transition: 0.6s ease;
+			border-radius: 0 3px 3px 0;
+
+		}
+
+
+		.next{
+			right: 0;
+			border-radius: 3px 0 0 3px ;
+		}
+
+		.prev:hover, .next:hover{
+			background-color: rgba(0,0,0,0.8);
+		}
+
+		.text{
+			color: #f2f2f2;
+			font-size: 15px;
+			padding: 8px 12px;
+			position: absolute;
+			bottom: 8px;
+			width: 100%;
+			text-align: center;
+		}
+
+
+		.numbertext{
+			color: #f2f2f2;
+			font-size: 12px;
+			padding: 8px 12px;
+			position: absolute;
+			top: 0;
+		}
+
+		.dot{
+			cursor: pointer;
+			height: 13px;
+			width: 13px;
+			margin: 0 2px;
+			background-color: #bbb;
+			border-radius: 50%;
+			display: inline-block;
+			transition: background-color 0.6s ease;
+
+		}
+
+		.active, .dot:hover{
+			background-color: #717171;
+		}
+
+		.fades{
+			-webkit-animation-name:fades;
+			-webkit-animation-duration:1.5s;
+			animation-name: fades;
+			animation-duration: 1.5s;
+		}
+
+		@-webkit-keyframes fades{
+			from{opacity: .4}
+			to{opacity: 1}
+		}
+
+		@keyframes fades {
+			from{opacity: .4}
+			to{opacity: 1}
+		}
+
+		*/
+
+		.p-services img{
+width: 100%;
+		}
+/*
+     FILE ARCHIVED ON 12:08:13 Oct 08, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:31:15 Feb 05, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.73
+  exclusion.robots: 0.033
+  exclusion.robots.policy: 0.019
+  esindex: 0.013
+  cdx.remote: 23.838
+  LoadShardBlock: 471.409 (3)
+  PetaboxLoader3.datanode: 327.459 (5)
+  PetaboxLoader3.resolve: 1010.201 (2)
+  load_resource: 1052.165
+  loaddict: 59.532
+*/
